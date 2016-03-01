@@ -1,6 +1,5 @@
 # Montego
-A front facing framework to easily deploy a php front end website
-
+A PHP framework to easily deploy websites
 
 #Getting Started
 
