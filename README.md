@@ -20,7 +20,7 @@ footer.php - place visible footer items (includes script for year for
 copyright year detection).
 
 #Notable Folders
-Plugins - folder to organize external libraries
+Plugins - folder to organize external libraries (Boostrap v3 is included)
 
 Assets - folder to organize all internal objects, styles, images, and scripts
 
