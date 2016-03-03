@@ -1,6 +1,5 @@
-//Process
 $(document).ready(function() {	
-	//Smooth Jump
+	//jQuery Smooth Jump Scroll
 	$('a').click(function(){
 	    $('html, body').animate({
 	        scrollTop: $( $.attr(this, 'href') ).offset().top
