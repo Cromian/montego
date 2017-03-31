@@ -3,7 +3,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- CSS -->
-<link href="<?php echo($bootsrap_css) ?>" rel="stylesheet">
 <link href="<?php echo($asset_css) ?>" rel="stylesheet">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

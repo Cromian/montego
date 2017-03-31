@@ -1,0 +1,190 @@
+@mixin grid-float {
+  float: left;
+  min-height: 1px;
+  box-sizing: border-box;
+  // padding: 8px;
+}
+
+.row {
+   &:before, &:after {
+    content:"";
+    display: table;
+    clear:both;
+   }
+  //  padding-bottom: 5px;
+}
+
+[class^="col-"], [class^="ban-"] {
+  @include grid-float;
+}
+
+ /* Extra Small Devices, Phones */
+ @media only screen and (min-width : $xsmall-break) {
+   .ban-1, .ban-2, .ban-3 {
+     width: $body-size;
+   }
+
+   .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+     width: $one-col * 12;
+   }
+ }
+
+ // Small Devices, Tablets
+ @media only screen and (min-width : $small-break) {
+   .col-12 {
+     width: $one-col * 12;
+   }
+
+   .col-4 {
+     width: $one-col * 4;
+   }
+
+   .col-1, .col-2, .col-3, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11 {
+     width: $one-col * 6;
+   }
+ }
+
+// Three col tablet hack
+ @media (min-width : $small-break) and (max-width : $medium-break) {
+   .col-1 ~ .col-4, .col-2 ~ .col-4, .col-3 ~ .col-4, .col-5 ~ .col-4, .col-6 ~ .col-4, .col-7 ~ .col-4, .col-8 ~ .col-4, .col-9 ~ .col-4, .col-10 ~ .col-4, .col-11 ~ .col-4 {
+     width: $one-col * 6;
+   }
+ }
+
+ // Medium Devices, Desktops
+ @media only screen and (min-width : $medium-break) {
+   .col-12 {
+     width: $one-col * 12;
+   }
+
+   .col-11 {
+     width: $one-col * 11;
+   }
+
+   .col-10 {
+     width: $one-col * 10;
+   }
+
+   .col-9 {
+     width: $one-col * 9;
+   }
+
+   .col-8 {
+     width: $one-col * 8;
+   }
+
+   .col-7 {
+     width: $one-col * 7;
+   }
+
+   .col-6 {
+     width: $one-col * 6;
+   }
+
+   .col-5 {
+     width: $one-col * 5;
+   }
+
+   .col-4 {
+     width: $one-col * 4;
+   }
+
+   .col-3 {
+     width: $one-col * 3;
+   }
+
+   .col-2 {
+     width: $one-col * 2;
+   }
+
+   .col-1 {
+     width: $one-col;
+   }
+ }
+
+ /* Large Devices, Wide Screens */
+ @media only screen and (min-width : $large-break) {
+  //  .ban-1, .ban-3 {
+  //    width: $body-size * .75;
+  //  }
+
+  //  .ban-2 {
+  //    width: $body-size * .25;
+  //  }
+
+   .col-12 {
+     width: $one-col * 12;
+   }
+
+   .col-11 {
+     width: $one-col * 11;
+   }
+
+   .col-10 {
+     width: $one-col * 10;
+   }
+
+   .col-9 {
+     width: $one-col * 9;
+   }
+
+   .col-8 {
+     width: $one-col * 8;
+   }
+
+   .col-7 {
+     width: $one-col * 7;
+   }
+
+   .col-6 {
+     width: $one-col * 6;
+   }
+
+   .col-5 {
+     width: $one-col * 5;
+   }
+
+   .col-4 {
+     width: $one-col * 4;
+   }
+
+   .col-3 {
+     width: $one-col * 3;
+   }
+
+   .col-2 {
+     width: $one-col * 2;
+   }
+
+   .col-1 {
+     width: $one-col;
+   }
+ }
+
+// @media only screen and (min-width : $xlarge-break) {
+//   // .ban-1 {
+//   //   width: $body-size;
+//   // }
+//
+//   // .wrapper {
+//   //     width: $xlarge-break;
+//   //     margin: auto;
+//   //   }
+//
+//   // .ban-2 {
+//   //   width: $body-size * .25;
+//   // }
+//   //
+//   // // If 3 bans are needed
+//   // .ban-2, .ban-3 {
+//   //   width: $body-size * .125;
+//   // }
+//
+// }
+//
+// // @media only screen and (min-width : $xlarge-break + 1) {
+// //   .wrapper {
+// //     width: $xlarge-break;
+// //     margin: auto;
+// //   }
+// // }

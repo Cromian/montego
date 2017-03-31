@@ -1,4 +1,4 @@
-$(document).ready(function() {	
+$(document).ready(function() {
 	//jQuery Smooth Jump Scroll
 	$('a').click(function(){
 	    $('html, body').animate({
@@ -6,8 +6,9 @@ $(document).ready(function() {
 	    }, 500);
 	    return false;
 	});
+
 	
 	//Footer Date
 	$("#footer-date").text( (new Date).getFullYear() );
-	
+
 });
