@@ -10,14 +10,19 @@
 </head>
 <body>
 
-
 <div class="wrapper">
+  <?php include ($header) ?>
 
   <div class="ban_1">
-    
+
+    <div class="row">
+      <div class="col-12"></div>
+    </div>
   </div>
 
+<?php include ($footer) ?>
 </div>
+
 
 <?php include( $meta_bot); ?>
 </body>
