@@ -1,9 +1,8 @@
-<header>
-<nav class="navbar navbar-inverse">
+<!-- <nav class="navbar navbar-inverse">
 	<div class="navbar-header">
-	  
+
 	  <a href="<?php echo($services_link) ?>" class="logo"></a>
-	  
+
 	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 	    <span class="sr-only">Toggle navigation</span>
 	    <span class="icon-bar"></span>
@@ -19,5 +18,4 @@
 	    <li><a href="<?php echo($linke_3) ?>">Link #3</a></li>
 	  </ul>
 	</div>
-</nav>
-</header>
+</nav> -->
