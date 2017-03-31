@@ -19,8 +19,6 @@ $asset_css = 'assets/css/main.css';
 
 // Plugins
 $email_form = 'plugins/email.php';
-
-
-
+$rss_reader = 'plugins/rss-reader.php';
 
 ?>

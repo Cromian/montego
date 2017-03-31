@@ -11,8 +11,9 @@ $site_keywords = 'Site Keywords';
 $site_url = '';
 $twitter_sn = '';
 
-// Site Email
+// Plugins
 $site_email = '';
+$rss_feed_url = '';
 
 // Google Analytics
 $ga_code = '';
