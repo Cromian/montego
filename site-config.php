@@ -1,6 +1,6 @@
 <?php
 
-include_once('core.php');
+include_once('router.php');
 
 //Site Title & Meta
 $site_title = "";
@@ -14,19 +14,11 @@ $twitter_sn = '';
 // Plugins
 $site_email = '';
 $rss_feed_url = '';
-
-// Google Analytics
 $ga_code = '';
 
 // Social Meida
 $faebook_page_url = '';
 $twitter_page_url = '';
 $medium_page_url = '';
-
-//Links
-$link_one = '/';
-$link_two = '/';
-$link_three = '/';
-
 
 ?>

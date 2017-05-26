@@ -6,7 +6,6 @@ $(document).ready(function() {
 	    }, 500);
 	    return false;
 	});
-
 	
 	//Footer Date
 	$("#footer-date").text( (new Date).getFullYear() );

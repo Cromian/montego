@@ -3,22 +3,23 @@
 $header = "template/header.php";
 $footer = "template/footer.php";
 $navigation = "template/navigation.php";
-
-// Tempalte Meta Data
 $meta_top = "template/meta/meta-top.php";
 $meta_bot = "template/meta/meta-bot.php";
-$og_fb_img = 'template/og/facebook.png';
-$og_twitter_img = 'template/og/twitter.png';
 
-// JS
+// Assets - OpenGraph
+$og_fb_img = 'assets/og/facebook.png';
+$og_twitter_img = 'assets/og/twitter.png';
+
+// Assets - CSS
+$asset_css = 'assets/main.css';
+
+// Assets - JS
 $asset_js = 'assets/scripts.js';
 $jquery_url = 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js';
-
-// CSS
-$asset_css = 'assets/css/main.css';
 
 // Plugins
 $email_form = 'plugins/email.php';
 $rss_reader = 'plugins/rss-reader.php';
+$ga_analytics = 'plugins/ga_analytics.php';
 
 ?>
